@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border-style: none;
+}
+.take-task {
+  background-color: #ddd;
+  padding: 25px;
+  margin: 15px;
+  border-radius: 10px;
+}
+.take-task #fld {
+  width: 88%;
+  border-style: none;
+  border-radius: 10px;
+  height: 40px;
+  caret-color: red;
+  font-size: 20px;
+  padding: 0 10px;
+}
+.take-task #fld:focus {
+  outline: 2px solid rgba(214, 72, 72, 0.843);
+}
+.take-task #btn {
+  padding: 10px 15px;
+  background-color: rgb(4, 173, 240);
+  color: white;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 10px;
+  margin-left: 8px;
+}
+.card-task {
+  padding: 15px;
+  margin: 20px;
+  background-color: #ddd;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.card-task > :only-child {
+  padding: 15px;
+  background-color: white;
+  height: 40px;
+  border-radius: 10px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+.card-task > :only-child > p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.card-task > :only-child > button {
+  padding: 4px 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: red;
+  cursor: pointer;
+}
